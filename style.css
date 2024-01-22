@@ -1,0 +1,484 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:ital,wght@0,400;1,200&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+   
+    max-height: 25px;
+    /* display:inline-block; */
+    /* padding:20px; */
+    background-color: #272321;
+    cursor: pointer;
+    /* #black :hover{
+        color:rgb(221, 51, 51) ;
+    } */
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    /* display: flex;
+    flex-direction: row; */
+    padding: 7px;
+    /* color:  #fff; */
+   
+    font-size: 9px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #e3dfdf;
+    
+}
+
+.section2{
+    padding-top: 10px;
+}
+
+.Desktop {
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    padding-top: -3px;
+}
+
+.logo{
+    font-family: 'COCOGOOSE Regular', sans-serif;
+    font-size: calc(var(--fs-main) / 2.2);
+    font-weight: bold;
+    color: var(--clr-main-dark);
+    padding: 0;
+    align-self: flex-start;
+    letter-spacing: 0.9px;
+    margin-left: 22px;
+    padding-right: 1px;
+    /* padding-bottom: 2px; */
+  
+
+}
+
+.font-awesome ul li a{
+    font-size: 24px;
+    font-weight: 200;
+    /* padding-top: 2px; */
+    
+}
+
+
+
+
+
+
+.font-awesome{
+    /* font-size: 22px; */
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+#red {
+    color: rgb(239, 28, 28);
+    transition: transform .2s;
+    width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#red:hover{
+    transform: scale(1.5);
+}
+
+#black {
+    color:black;
+    transition: 0.3s ease-in-out;
+}
+
+#black:hover{
+    color:rgb(221, 51, 51) ;
+}
+
+
+main {
+    background: url(WhatsApp\ Image\ 2024-01-17\ at\ 16.14.14_6d203ec5.jpg) repeat;
+}
+
+
+.containner {
+  
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+  
+
+}
+
+#Introduction {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 4px 140px;
+    font-size: 21px;
+    color: rgb(221, 51, 51);
+    text-align: start;
+    font-size: 39px;
+    font-weight: 200;
+}
+
+
+span{
+    display: contents;
+    color: rgb(221, 51, 51);
+
+}
+
+
+.span1{
+    font-size: 23px;
+
+}
+
+
+
+/* #Introduction p{
+    font-size: 21px;
+    color: rgb(221, 51, 51);
+} */
+
+
+.page-heading{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+#containner {
+    width: 34%;
+    /* max-height: 22px; */
+    border: 2px solid white;
+    margin: 28px 100px;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 100;
+}
+
+
+#containner p{
+    color: var(--clr-main-dark);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px 2px;
+}
+
+#role{
+    padding: 66px 105px;
+    align-self: flex-start;
+
+}
+
+
+.program{
+    background: url(whatsapp.jpg) repeat ;
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    row-gap: 28px;
+    padding: 87px;
+
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    /* background: url(whatsapp.jpg) repeat ; */
+    
+    
+  
+
+}
+
+.center{
+   text-align: center;
+   justify-content: center;
+   font-family: 'Lato', sans-serif;
+   font-size: calc(var(--fs-main) / 1.9);
+   font-weight: 600;
+   color: #fff;
+   margin: 22px -39px;
+   padding-top: 10px;
+   letter-spacing: 0.87px;
+
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top:3px;
+}
+
+
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: rgba(246, 36, 36, 0.904);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-self: center;
+    margin-top: 8px;
+    padding-left:-44px;
+}
+
+
+.hello {
+    margin-top: -63px;
+    margin-left: -15px;
+
+
+}
+
+.row{
+    margin-top: 40px;
+    margin-left: -2px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fa-solid{
+    font-size: 37px;
+    margin-bottom: 22px;
+}
+
+
+.Option {
+    width: 230px ;
+    height: 22%;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding-top: 50px;
+    padding-bottom: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.music{
+    padding: 13px 2px ;
+}
+
+.music h2{
+    color: rgb(251, 45, 45);
+    
+}
+
+
+
+.Option:hover{
+    background-color: rgb(106, 101, 101);
+    
+}
+
+.link-tag{
+    margin-top: 70px;
+    font-size: 22px;
+    font-weight: bold;
+    /* color: #fff; */
+}
+
+.btn{
+    color: #fff;
+}
+
+
+
+
+.Featured{
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.Article {
+    padding-top: 22px;
+}
+  
+
+.intro{
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 54px 89px ;
+    /* flex-wrap: wrap; */
+}
+
+.A-logo{
+    width: 100px;
+    /* height: 133px; */
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+.a-name{
+    font-size: 22px;
+    /* font-weight: 500;
+} */
+}
+
+.about{
+    font-size: 17px;
+    color: rgba(251, 47, 47, 0.94);
+}
+
+
+.B-line{
+    width: 22px;
+    background-color: black;
+    margin-left: 3px;
+    margin-right: 0%;
+}
+
+.introDuction{
+    padding-left: 22px;
+}
+
+.ABT {
+    margin: -9px;
+    font-family: "Lato", sans-serif;
+    font-size: calc(var(--fs-main) / 2.6);
+    text-align: left;
+
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 4px 5px;
+    margin-left: 200px;
+}
+
+
+.art2{
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 4px 5px;
+    margin-left: 200px;
+}
+
+
+.Partner{
+    width: 100%;
+    height: auto;
+    background-color: #272321;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cen{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.hed{
+    color: #4b4542;
+}
+
+
+.our-parthner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-self: center; */
+    
+
+}
+
+
+.uno{
+    font-size: 128px;
+    font-weight: 800;
+    color: #726158;
+}
+
+
+.lastest{
+    width: 100%;
+    height: auto;
+    background-color: #e4e4e4;
+     
+}
+
+.in-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.head{
+    padding: 22px 2px;
+}
+
+.left{
+    padding-top:22px ;
+}
+
+.left a {
+    color: red;
+
+}
+
+
+.copy{
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+
