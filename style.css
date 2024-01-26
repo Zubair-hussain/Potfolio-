@@ -9,6 +9,13 @@
 }
 
 
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+
 header{
    
     max-height: 25px;
@@ -54,6 +61,23 @@ nav ul li a{
     padding-top: 10px;
 }
 
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.H-line{
+    width: 33px;
+    background-color: #fff;
+    height: 4px;
+    margin:5px 3px;
+}
+
 .Desktop {
     background-color: #fff;
 
@@ -83,7 +107,7 @@ nav ul li a{
 
 }
 
-.font-awesome ul li a{
+.fontawesome ul li a{
     font-size: 24px;
     font-weight: 200;
     /* padding-top: 2px; */
@@ -95,7 +119,7 @@ nav ul li a{
 
 
 
-.font-awesome{
+.fontawesome{
     /* font-size: 22px; */
     font-weight: 600;
     display: flex;
@@ -350,7 +374,11 @@ span{
     border: 5px solid red;
     border-radius: 5px;
 }
-
+.size{
+    width: 53%;
+    border: 5px solid red;
+    border-radius: 4px;
+}
 .a-name{
     font-size: 22px;
     /* font-weight: 500;
@@ -479,6 +507,232 @@ span{
     text-align: center;
     justify-content: center;
     font-size: 22px;
+}
+
+
+
+@media screen and (max-width: 700px) 
+{   *{
+    /* margin: auto; */
+    padding: revert;
+}
+    body{
+        /* margin: auto; */
+        /* padding: auto; */
+        box-sizing: border-box;
+
+    }
+    
+    header{
+   
+        /* max-height: 28px; */
+        width: auto;
+        max-height: 22%;
+        display: flex;
+        /* flex-direction: column; */
+        /* display:inline-block; */
+        /* padding:20px; */
+        background-color: #272321;
+        cursor: pointer;
+        /* #black :hover{
+            color:rgb(221, 51, 51) ;
+        } */
+        
+    }
+
+    .list{
+       display: none;
+    }
+
+    .section2{
+        padding-top: 0;
+        /* background-color: #272321; */
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .heading{
+        display: none;
+    }
+
+    nav ul {
+        /* list-style-type: none; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fontawesome{
+        background-color: #272321;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+       
+        opacity: 0;
+        /* opacity: 0; */
+    }
+
+    .space{
+        display: none;
+    }
+
+
+    main{
+        width: -webkit-fill-available;
+    }
+    
+    .span1{
+        font-size: 15px;
+    }
+
+    .page-heading {
+        font-size: 30px;
+    }
+
+    .containner{
+        align-items: center;
+    }
+
+    #containner p {
+        font-size: 15px;
+    }
+
+    #role{
+        padding: 44px 59px;
+    }
+
+    #role p{
+        text-align: center;
+
+    }
+    .row {
+      margin-top: 40px;
+    /* margin-left: -2px; */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Option {
+        width: auto;
+    }
+
+    .A-logo {
+        width: 20%;
+    }
+
+    .setting{
+        width: 22%;
+    }
+    /* .introDuction {
+        padding-left: 22%;
+    } */
+
+    .introDuction {
+        padding-left: 15px;
+    }
+
+    .a-name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .about {
+        font-size: small;
+    }
+
+    .ABT{
+        font-size: 12px;
+    }
+
+    .art2 {
+        /* background-color: #e4e4e4; */
+        width: auto;
+        height: fit-content;
+
+    }
+
+    .img{
+        padding-left: 19px;
+    }
+
+    .intro {
+        /* padding-left: 8px; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .size {
+        width: 20%;
+        height: auto;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 0;
+        padding: 0 0;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 50px 1px;
+        margin-left: 0;
+    }
+
+    .lol{
+        font-size: smaller;
+    }
+
+    .Partner {
+        width: 100%;
+        height: auto;
+        background-color: #272321;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    
+    }
+    .hed {
+        color: #4b4542;
+        font-size: 22px;
+    }
+
+    .our-parthner {
+        display: flex;
+        flex-direction: row;
+        margin-top: 28px;
+    }
+
+    .uno {
+        font-size: 15px;
+    }
+    .left a {
+        color: red;
+        font-size: 15px;
+    }
+
+    .copy{
+        font-size: 5px;
+    }
+
+    
+
+   
+
+   
 }
 
 
